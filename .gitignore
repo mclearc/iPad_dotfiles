@@ -1,0 +1,14 @@
+# Ignore everything by default
+ *
+ 
+ # But track these dotfiles
+ !.vimrc
+ !.bashrc
+ !.gitignore
+ !README.md
+ 
+ # Track vim plugin directory structure but not the plugins themselves
+ !.vim/
+ .vim/*
+ !.vim/pack/
+ .vim/pack/*
