@@ -2,11 +2,11 @@
  
  My vim and shell configuration optimized for prose writing on iPad using a-shell.
  
- ## What This Is
+## What This Is
  
  Configuration files for a writer-friendly vim environment on iOS/iPadOS. Designed for distraction-free writing, one-sentence-per-line editing, and working with plain text and markdown files.
  
- ## Features
+## Features
  
  **Vim Configuration:**
  - Distraction-free writing mode with Goyo and Limelight
@@ -23,15 +23,22 @@
  - Git shortcuts
  - Quick navigation commands
  
- ## Installation
+## Dotfiles Installation
  
  ```bash
  cd ~/Documents
- lg2 clone https://github.com/yourusername/dotfiles.git temp-dotfiles
- cp temp-dotfiles/.vimrc .
- cp temp-dotfiles/.bashrc .
- rm -rf temp-dotfiles
+ lg2 clone https://github.com/mclearc/iPad_dotfiles.git
  source .bashrc
+```
+
+## Version Control for Dotfiles 
+
+```bash 
+cd ~/Documents
+lg2 add .vimrc .bashrc
+lg2 commit -m "Description of changes"
+lg2 push origin
+```
 
 ## Setting Up Vim Plugins
  mkdir -p ~/Documents/.vim/{pack/writing/{start,opt},undo,spell,thesaurus}
