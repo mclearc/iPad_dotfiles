@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository has moved to Codeberg:** https://codeberg.org/mclearc/iPad_dotfiles
+> This GitHub copy is a read-only archived mirror.
+
 # Dotfiles for iPad Writing with a-shell
  
  My vim and shell configuration optimized for prose writing on iPad using a-shell.
